@@ -14,7 +14,6 @@ This project is intended only as a proof-of-concept and there is no performance 
 
 ## Dashboard
 ![Dashboard](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.23.42-PM-1024x429.png "Dashboard")
-![Spreadsheet](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.24.48-PM-1024x455.png "Spreadsheet")
 
 ## Set Up
 
@@ -97,3 +96,8 @@ When you close or archive a request in the Dashboard, it takes within one minute
 
 ## Future Enhancements
 - There is a bug when a data column in Google Sheets is not plain text. For example, dates. I've added an interim solution that converts all those dates to plain text.
+
+## Reference
+Spreadsheet
+![Spreadsheet](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.24.48-PM-1024x455.png "Spreadsheet")
+
