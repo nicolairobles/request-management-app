@@ -7,6 +7,7 @@ This project is intended only as a proof-of-concept and there is no performance 
 
 # Live Demo
 - [Live Dashboard](https://script.google.com/macros/s/AKfycbzgPXDj3PM1cKVB_Wf-AIu9MJL7uu2TwoGkL90KpfSp/exec)
+- [Trello Board](https://trello.com/b/2nYmBREX/request-management-app-demo)
 - [Spreadsheet](https://docs.google.com/spreadsheets/d/1AFtMX1-hNY4RPquqToXBk0kBITBSVqk19m_QJD1K0t0/edit#gid=1470474967)
 - [Form](https://docs.google.com/forms/d/e/1FAIpQLSfi01auBACD93dRZmzlDoquNm0xArFcQ0fKDEwW3c9qiz9Yzw/viewform)
 
@@ -72,6 +73,7 @@ npm run deploy
 - onFormSubmit - onFormSubmit
 - getInProgressRequestsAndUpdate - every minute
 10. When accessing the app, you will be asked to authorize. If publicly available, Google will show a notice of the app being unverified. Click on Advanced and then the link to your app.
+11. Ensure you share the script with anyone with the link. In File > Share.
 
 ## Project Structure
 
