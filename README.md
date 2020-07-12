@@ -13,7 +13,7 @@ This project is intended only as a proof-of-concept and there is no performance 
 
 
 ## Dashboard
-![Dashboard](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.35.45-PM-1024x472.png "Dashboard")
+![Dashboard](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.43.53-PM-1024x478.png "Dashboard")
 
 ![Request Details](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.42.19-PM-1024x471.png "Request Details")
 
