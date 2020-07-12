@@ -1,5 +1,5 @@
 # Request Management App
-This  app is a Request Management App, to be used as a UI for a Google Form's spreadsheet. The requests can be 'Closed' or 'Cancelled'.
+Open-source request management app that integrates with Google Sheets and Forms to handle administrative tasks like folder creation, brief creation, automatic assignments, trello card creation, & syncs updates from Trello. The live dashboard UI also provides a user-friendly way to manage requests and can Close or Archive requests on the spreadsheet and Trello.
 
 The front-end (client side) uses VueJS and Bootstrap. The back-end uses ES6 Javascript that gets compiled and bundled to Apps Script compatible code using webpack.
 
