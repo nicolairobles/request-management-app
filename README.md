@@ -19,6 +19,10 @@ This project is intended only as a proof-of-concept and there is no performance 
 
 ![Trello Board](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.37.07-PM-1024x474.png "Trello Board")
 
+![Confirmation Email](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.45.49-PM-1024x723.png "Confirmation Email")
+
+![Completion Email](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.46.03-PM-1024x696.png "Completion Email")
+
 ## Set Up
 
 Install clasp command line tool (if you don't have it already)
