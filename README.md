@@ -13,7 +13,9 @@ This project is intended only as a proof-of-concept and there is no performance 
 
 
 ## Dashboard
-![Dashboard](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.23.42-PM-1024x429.png "Dashboard")
+![Dashboard](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.35.45-PM-1024x472.png "Dashboard")
+
+![Trello Board](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.37.07-PM-1024x474.png "Trello Board")
 
 ## Set Up
 
