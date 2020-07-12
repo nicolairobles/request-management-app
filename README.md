@@ -9,11 +9,13 @@ This project is intended only as a proof-of-concept and there is no performance 
 - [Live Dashboard](https://script.google.com/macros/s/AKfycbzgPXDj3PM1cKVB_Wf-AIu9MJL7uu2TwoGkL90KpfSp/exec)
   - A pop-up will say "This app isn't verified". Click 'Advanced' to continue.
 - [Trello Board](https://trello.com/b/2nYmBREX/request-management-app-demo)
-- [Form](https://docs.google.com/forms/d/e/1FAIpQLSfi01auBACD93dRZmzlDoquNm0xArFcQ0fKDEwW3c9qiz9Yzw/viewform)
+- [Form to Submit Requests](https://docs.google.com/forms/d/e/1FAIpQLSfi01auBACD93dRZmzlDoquNm0xArFcQ0fKDEwW3c9qiz9Yzw/viewform)
 
 
 ## Dashboard
 ![Dashboard](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.35.45-PM-1024x472.png "Dashboard")
+
+![Request Details](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.42.19-PM-1024x471.png "Request Details")
 
 ![Trello Board](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.37.07-PM-1024x474.png "Trello Board")
 
