@@ -7,9 +7,14 @@ This project is intended only as a proof-of-concept and there is no performance 
 
 # Live Demo
 - [Live Dashboard](https://script.google.com/macros/s/AKfycbzgPXDj3PM1cKVB_Wf-AIu9MJL7uu2TwoGkL90KpfSp/exec)
+  - A pop-up will say "This app isn't verified". Click 'Advanced' to continue.
 - [Trello Board](https://trello.com/b/2nYmBREX/request-management-app-demo)
-- [Spreadsheet](https://docs.google.com/spreadsheets/d/1AFtMX1-hNY4RPquqToXBk0kBITBSVqk19m_QJD1K0t0/edit#gid=1470474967)
 - [Form](https://docs.google.com/forms/d/e/1FAIpQLSfi01auBACD93dRZmzlDoquNm0xArFcQ0fKDEwW3c9qiz9Yzw/viewform)
+
+
+## Dashboard
+![Dashboard](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.23.42-PM-1024x429.png "Dashboard")
+![Spreadsheet](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.24.48-PM-1024x455.png "Spreadsheet")
 
 ## Set Up
 
