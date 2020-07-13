@@ -72,19 +72,23 @@ TRELLO_TOKEN
 idList
 mainDriveFolder
 ```
-- 5.c. Also get your Script ID in File > Project Properties > Info and place the ID in .clasp.json
+- 5.c. Also get your Script ID in File > Project Properties > Info and place the ID in .clasp.json file at root
+```
+{
+  "scriptId": "your_script_id"
+}
+```
 6. Adjust appscript.json to customize who you want accessing the app. Default is ANYONE signed in (https://developers.google.com/apps-script/manifest#webapp).
 - 6.a. Make sure your Google Apps Script API is turned on: https://script.google.com/home/usersettings
 7. Run
 ```
 npm run deploy
 ```
-8. You can customize the data that is pulled in to the requests views by editing getNewRequests() in server/src/classes/RequestApp.js and server/src/classes/QueryBuilder.js
-9. Set up triggers for 
+8. Set up triggers for 
 - onFormSubmit - onFormSubmit
 - getInProgressRequestsAndUpdate - every minute
 10. When accessing the app, you will be asked to authorize. If publicly available, Google will show a notice of the app being unverified. Click on Advanced and then the link to your app.
-11. Ensure you share the script with anyone with the link. In File > Share.
+11. Ensure you share the script with anyone with the link or the spreadsheet. In File > Share.
 
 ## Project Structure
 
@@ -103,6 +107,7 @@ When you close or archive a request in the Dashboard, it takes within one minute
 
 ## Future Enhancements
 - There is a bug when a data column in Google Sheets is not plain text. For example, dates. I've added an interim solution that converts all those dates to plain text.
+- You can customize the data that is pulled in to the requests views by editing getNewRequests() in server/src/classes/RequestApp.js and server/src/classes/QueryBuilder.js 
 
 ## Reference
 Spreadsheet
