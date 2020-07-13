@@ -34,10 +34,11 @@ npm install
 ## Other Set Up
 
 1. Create a Google Form and corresponding Google Sheet to capture the responses
-1.a. Add the following columns to the spreadsheet
+- 1.a. Add the following columns to the spreadsheet
 ```
 Job Number (should be first column)
-Shared Folder	Status	
+Shared Folder	
+Status	
 Trello Card Id	
 Trello Card Url	
 Trello Card Data	
@@ -48,22 +49,22 @@ Summary
 Project Name	
 Due Date
 ```
-1. b. Add a sheet called Brief to your Google Spreadsheet
+- 1.b. Add a sheet called Brief to your Google Spreadsheet
 2. Create a trello board and get a Trello Key and Token (https://trello.com/app-key)
 3. Get the list id of where you want cards to arrive on your trello board
 4. Create a Google Drive Folder where you want dedicated request folders to be stored and get its id
 5. In your Google Sheet, go to Tools > Script Editor
-5. a. Give your script a name
-5. b. Go to File > Project Properties > Script properties and place the following key value pairs:
+- 5.a. Give your script a name
+- 5.b. Go to File > Project Properties > Script properties and place the following key value pairs:
 ```
 TRELLO_KEY
 TRELLO_TOKEN
 idList
 mainDriveFolder
 ```
-5. c. Also get your Script ID in File > Project Properties > Info and place the ID in .clasp.json
+- 5.c. Also get your Script ID in File > Project Properties > Info and place the ID in .clasp.json
 6. Adjust appscript.json to customize who you want accessing the app. Default is ANYONE signed in (https://developers.google.com/apps-script/manifest#webapp).
-6. a. Make sure your Google Apps Script API is turned on: https://script.google.com/home/usersettings
+- 6.a. Make sure your Google Apps Script API is turned on: https://script.google.com/home/usersettings
 7. Run
 ```
 npm run deploy

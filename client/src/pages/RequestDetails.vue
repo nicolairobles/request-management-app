@@ -6,8 +6,13 @@
 	<li class="breadcrumb-item active" aria-current="page">Request Details</li>
 	</ol>
 	</nav>
-			
 	<h1>Request Details</h1>
+
+	<div class="section" v-if="req.status == 'In Progress' ">
+		<button type="button" class="btn btn-primary" @click="close()">Close Request</button>
+		<button type="button" class="btn btn-warning" @click="cancel()">Archive Request</button>
+	</div>
+			
 	<div class="section">
 	<h5>ID</h5>
 	{{req.job_number}}
@@ -39,10 +44,7 @@
 
 
 
-	<div class="section" v-if="req.status == 'In Progress' ">
-		<button type="button" class="btn btn-primary" @click="close()">Close Request</button>
-		<button type="button" class="btn btn-warning" @click="cancel()">Archive Request</button>
-	</div>
+
 
 </div>
 </template>
