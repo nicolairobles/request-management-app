@@ -106,6 +106,7 @@ You can see the client side setup in the client/webpack.prod.js
 When you close or archive a request in the Dashboard, it takes within one minute for the Trello Card to sync with the spreadsheet. This is why the request will say: "Pending Review"
 
 ## Future Enhancements
+- The data takes about 1 sec to load so I'm working on a loading indicator.
 - There is a bug when a data column in Google Sheets is not plain text. For example, dates. I've added an interim solution that converts all those dates to plain text.
 - You can customize the data that is pulled in to the requests views by editing getNewRequests() in server/src/classes/RequestApp.js and server/src/classes/QueryBuilder.js 
 
