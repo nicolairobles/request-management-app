@@ -1,15 +1,25 @@
 # Request Management App
-Open-source request management app that integrates with Google Sheets and Forms to handle administrative tasks like folder creation, brief creation, automatic assignments, trello card creation, & syncs updates from Trello. The live dashboard UI also provides a user-friendly way to manage requests and can Close or Archive requests on the spreadsheet and Trello.
+Open-source request management app that integrates with Google Sheets and Forms to handle administrative tasks like folder creation, brief creation, automated emails, trello card creation, & syncs updates from Trello. The live dashboard UI also provides a user-friendly way to manage requests and can Close or Archive requests on the spreadsheet and Trello.
 
 The front-end (client side) uses VueJS and Bootstrap. The back-end uses ES6 Javascript that gets compiled and bundled to Apps Script compatible code using webpack.
 
-This project is intended only as a proof-of-concept and there is no performance optimization. The app will be slow because of the inefficiencies. 
-
 # Live Demo
 - [Live Dashboard](https://script.google.com/macros/s/AKfycbzgPXDj3PM1cKVB_Wf-AIu9MJL7uu2TwoGkL90KpfSp/exec)
+  - A pop-up will say "This app isn't verified". Click 'Advanced' to continue.
 - [Trello Board](https://trello.com/b/2nYmBREX/request-management-app-demo)
-- [Spreadsheet](https://docs.google.com/spreadsheets/d/1AFtMX1-hNY4RPquqToXBk0kBITBSVqk19m_QJD1K0t0/edit#gid=1470474967)
-- [Form](https://docs.google.com/forms/d/e/1FAIpQLSfi01auBACD93dRZmzlDoquNm0xArFcQ0fKDEwW3c9qiz9Yzw/viewform)
+- [Form to Submit Requests](https://docs.google.com/forms/d/e/1FAIpQLSfi01auBACD93dRZmzlDoquNm0xArFcQ0fKDEwW3c9qiz9Yzw/viewform)
+
+
+## Dashboard
+![Dashboard](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.43.53-PM-1024x478.png "Dashboard")
+
+![Request Details](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.42.19-PM-1024x471.png "Request Details")
+
+![Trello Board](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.37.07-PM-1024x474.png "Trello Board")
+
+![Confirmation Email](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.45.49-PM-1024x723.png "Confirmation Email")
+
+![Completion Email](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.46.03-PM-1024x696.png "Completion Email")
 
 ## Set Up
 
@@ -93,3 +103,8 @@ When you close or archive a request in the Dashboard, it takes within one minute
 
 ## Future Enhancements
 - There is a bug when a data column in Google Sheets is not plain text. For example, dates. I've added an interim solution that converts all those dates to plain text.
+
+## Reference
+Spreadsheet
+![Spreadsheet](http://67.205.135.229/wp-content/uploads/2020/07/Screen-Shot-2020-07-12-at-6.24.48-PM-1024x455.png "Spreadsheet")
+
